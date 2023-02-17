@@ -1,0 +1,22 @@
+name: Checkout
+options:
+  - name: configuration 5
+    type: text
+    default: I'm a default text
+    description: >-
+      This is the docs for an input of type text
+  - name: configuration 1
+    type: checkbox
+    default: true
+    description: description for configuration one
+  - name: configuration 2
+    type: dropdown
+    options:
+      - first option
+      - second option
+      - third option
+    default: first option
+    description: >-
+      This is a long description
+      that has been broken
+      into three lines.

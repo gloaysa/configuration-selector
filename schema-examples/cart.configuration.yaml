@@ -1,0 +1,17 @@
+name: Cart
+options:
+  - name: configuration 3
+    type: number
+    default: 3
+    description: description for configuration one
+  - name: configuration 4
+    type: radio
+    options:
+      - first option
+      - second option
+      - third option
+    default: first option
+    description: >-
+      This is a long description
+      that has been broken
+      into three lines.
